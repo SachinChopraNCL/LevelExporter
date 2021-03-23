@@ -9,7 +9,12 @@ public class ComponentIdentifier : MonoBehaviour
         Plane,
         Obstacle,
         Wall, 
-        Player
+        Player,
+        Coin,
+        Checkpoint,
+        Finishline,
+        Jump,
+        Speed
     }
     public LevelComponentType obstacleType;
 
